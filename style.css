@@ -1,0 +1,255 @@
+
+@font-face {
+    font-family: 'Bungee';
+    src: url('Bungee-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+.noses{transform: translateY(-55px);}
+.clown2{position: absolute;
+        transform: translate(270%,-150%);}
+
+button{transform: translate(205%,-215%);
+      position: absolute;}
+
+.photo {
+      background: url('url-of-my-image.png');
+      background-size: cover; 
+    }
+
+ html{
+   transform: translate(25%,35%) scale(1.1, 1.1);
+    }
+
+.money {position: absolute;
+  top: -30%;
+  left:0%;
+  width: 110%;
+       opacity: 80%;}
+
+.cat {
+
+      background: url('the-cat.jpeg');
+      background-size: ; /* Cover the whole div */
+      width: 100%; /* Specify width */
+      height: 100%; /* Specify height */
+    background-repeat: no-repeat;
+    }
+
+.tophat{
+  position: relative;
+  top: -80px;
+  left:50%;
+}
+
+.monocle{
+  position: absolute;
+  top: 30%;
+  left:82%;
+}
+
+.cane{
+  position: absolute;
+  top: 75%;
+  left:20%;
+    animation: cane 4s linear;
+animation-iteration-count:infinite;
+}
+
+.pipe{
+  position: absolute;
+  top: 77%;
+  left:105%;
+  transform: rotate(340deg);
+}
+.smoke{
+  position: absolute;
+  top: 62%;
+  left:114%;
+  transform: rotate(0deg);
+  opacity: 75%;
+}
+
+
+.the-guy {
+  position: relative;
+  top: 0%;
+  left:-50%;
+}
+
+p {    overflow: hidden;
+    white-space: nowrap;}
+
+.center {
+  position: absolute;
+  white-space: nowrap;
+  animation-name: side;
+ animation-duration: 4s;
+animation-iteration-count:infinite;}
+
+.top-center{
+  position: absolute;
+  color: black;
+  animation: Lexiscool 4s linear;
+animation-iteration-count:infinite;
+  font-family: "bungee";
+}
+
+.bottom-center{
+  position: absolute;
+  top: 275px;
+  left: 100%;
+  transform: translate(-50%, -50%);
+  color: white;
+text-overflow: nowrap;
+font-size: 25px;
+   animation: lex-is-even-cooler 5s linear;
+animation-iteration-count:infinite;
+  font-family: "bungee";
+  font-size: 20px;
+}
+
+
+.test{}
+
+
+.b{margin: 0;
+  animation: text 4s linear 0s infinite ;
+   transform: translate(2px);
+  color: yellow;}
+.u{margin: 0; animation: text 4s linear 0.5s infinite ;transform: translate(2px);
+  color: yellow;}
+.y{margin: 0;
+  animation: text 4s linear 1s infinite ;
+   transform: translate(2px);
+  color: yellow;}
+.n{margin: 0;
+  animation: text 4s linear 1.5s infinite ;
+  transform: translate(2px);
+  color: yellow;}
+.o{margin: 0;
+  animation: text 4s linear 2s infinite ;
+  transform: translate(2px);
+  color: yellow;}
+.w{margin: 0;
+  animation: text 4s linear 2.5s infinite ;
+  transform: translate(1px);
+  color: yellow;}
+
+
+.sign-text{
+   animation: blinker 1.5s linear infinite;
+  position: absolute;
+  top: 150px;
+  left: 425px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 25px;
+font-family: "Bungee";
+}
+
+.sign{
+  border-radius: 10px;
+  border-style: double;
+  border-color: cyan;
+  border-width: 5px;
+line-height: 25px;
+  }
+}
+
+.if-i-remove-this-things-break{animation: text 4s linear infinite;}
+
+@keyframes text{
+  0% {color:yellow}
+  25% {color: yellow;}
+  50% {color: yellow;}
+  75% {color:red}
+  100% {color:red}
+}
+
+  @keyframes cane { 
+    100% { -webkit-transform: rotate(360deg); } 
+}
+
+@keyframes Lexiscool {
+  0% {
+    left: 150px;
+    top: 10px;
+    color: red;
+    text-overflow: nowrap;
+  }
+  50% {
+    left: 335px;
+top: 10px;
+    color: orange;
+    text-overflow: nowrap;
+  }
+  51% {
+    left: 335px;
+top: 10px;
+    color: yellow;
+    text-overflow: nowrap;
+  }
+    100% {
+    left: 150px;
+top: 10px;
+    color: orange;
+    text-overflow: nowrap;
+    }
+}
+
+@keyframes side {
+  0% {
+    left: 0%;
+top: 10px;
+    color: red;
+    text-overflow: nowrap;
+  }
+  25% {
+    left: 25%;
+top: 10px;
+    color: orange;
+    text-overflow: nowrap;
+  }
+  50% {
+    left: 50%;
+   top: 10px;
+    color: yellow;
+    text-overflow: nowrap;
+  }
+  75% {
+    left: 75%;
+   top: 10px;
+    color: green;
+    text-overflow: nowrap;
+  }
+  100% {
+    left: 100%;
+   top: 10px;
+    color: blue;
+    text-overflow: nowrap;
+  }
+}
+@keyframes lex-is-even-cooler {
+  0%{color: yellow;  
+  }
+  74%{color: yellow;}
+75%{color:red}
+  80%{color: yellow;}
+  85%{color: red;}
+  90%{color: yellow;}
+ 95%{color: red;}
+  100%{color: yellow;}
+}
+
+      @keyframes blinker {
+        50% {
+          opacity: 70%;
+        }
+      }
+      .blink-one {
+        animation: blink-one 1s linear infinite;
+      }
+
+     
